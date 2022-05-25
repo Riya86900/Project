@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>API CALLS</title>
+</head>
+<body>
+    <div class="box"><br> <br>
+        <button id="Button1">Get Complete Record</button>
+        </div>
+<br> <br>
+<input id="Input" type="number"><br><br>
+        <div>
+        <button id="Button2">Get Single Record by Id</button>
+        </div>
+        <br> <br>
+        <div>
+        <button id="Button3" onclick="sendJSON()">Insert Single Record</button>
+        <div class="a" id="insrec">
+            <input class="id" type="text" placeholder="FirstName" id="customername">
+
+            <input class="id" type="text" placeholder="LastName" id="lastname">
+
+            <input class="id" type="text" placeholder="CustomerAddress" id="address">
+
+            <input class="id" type="text" placeholder="CreatedBy" id="createdby">
+            <input class="id" type="text" placeholder="CreatedAt" id="createdat">
+            <input class="id" type="text" placeholder="UpdatedBy" id="updatedby">
+            <input class="id" type="text" placeholder="UpdatedAt" id="updatedat">
+        </div>
+        </div><br> <br>
+<div>
+        <button id="Button4" onclick="search()">Get Record with Like</button>
+        <input id="search" placeholder="search here" type="text ">
+<br>        </div><br> <br>
+
+        <div id="Division"></div>
+    </div>
+    
+</body>
+
+<script src="script.js">
+
+</script>
+
+</html>
